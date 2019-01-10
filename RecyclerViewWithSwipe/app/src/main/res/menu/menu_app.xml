@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Chức năng">
+        <menu>
+            <item
+                android:id="@+id/menu_search"
+                android:title="Tìm kiếm"
+                android:icon="@android:drawable/ic_menu_search">
+
+            </item>
+            <item
+                android:id="@+id/menu_profile"
+                android:title="Hồ sơ"
+                android:icon="@android:drawable/ic_dialog_info">
+
+            </item>
+        </menu>
+    </item>
+
+    <item android:title="Thiết lập">
+        <menu>
+            <item
+                android:id="@+id/menu_change_password"
+                android:title="Đổi mật khẩu"
+                android:icon="@android:drawable/ic_lock_idle_lock">
+
+            </item>
+            <item
+                android:id="@+id/menu_logout"
+                android:title="Đăng xuất"
+                android:icon="@android:drawable/arrow_down_float">
+
+            </item>
+        </menu>
+    </item>
+
+</menu>
